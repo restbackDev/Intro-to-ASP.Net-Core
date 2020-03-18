@@ -26,7 +26,7 @@ namespace CNIT134Empty
                 app.UseDeveloperExceptionPage();
             }
 
-
+            app.UseStaticFiles();
             
             app.UseRouting();
 
