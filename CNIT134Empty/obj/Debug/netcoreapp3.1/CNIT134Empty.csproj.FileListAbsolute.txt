@@ -1,0 +1,17 @@
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/CNIT134Empty.deps.json
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/CNIT134Empty.runtimeconfig.json
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/CNIT134Empty.runtimeconfig.dev.json
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/CNIT134Empty.dll
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/bin/Debug/netcoreapp3.1/CNIT134Empty.pdb
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.csprojAssemblyReference.cache
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.MvcApplicationPartsAssemblyInfo.cache
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.AssemblyInfoInputs.cache
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.AssemblyInfo.cs
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.RazorTargetAssemblyInfo.cache
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/staticwebassets/CNIT134Empty.StaticWebAssets.Manifest.cache
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/staticwebassets/CNIT134Empty.StaticWebAssets.xml
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.dll
+/Users/jason/Projects/CNIT134Empty/CNIT134Empty/obj/Debug/netcoreapp3.1/CNIT134Empty.pdb
