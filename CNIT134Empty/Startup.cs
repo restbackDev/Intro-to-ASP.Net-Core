@@ -7,7 +7,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
+//new PhysicalFileProvider
+//Path.Combine(Directory.GetCurrentDirectory())
 namespace CNIT134Empty
 {
     public class startup
@@ -26,8 +30,26 @@ namespace CNIT134Empty
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles();
-            
+            app.UseDefaultFiles();  //default initial page
+            app.UseStaticFiles();   //line line for wwwroot
+
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(), @"Images")),
+                    RequestPath = new PathString("/app-images")
+            });
+
+
+            /*
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(
+                    System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), @"Images")),
+                    RequestPath = new PathString("/app-images")
+            });
+            */
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
